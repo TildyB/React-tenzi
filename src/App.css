@@ -1,0 +1,44 @@
+
+
+.foDiv{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(241, 114, 91);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alDiv{
+  width: 60%;
+  height: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.308);
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.dobasButton{
+  background-color: rgba(0, 152, 253, 0.63);
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+  cursor: pointer;
+}
+.leiroSzoveg{
+  text-align: center;
+}
+.lepes{
+  font-weight: 600;
+  font-size: 1rem;
+}
